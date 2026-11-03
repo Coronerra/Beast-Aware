@@ -82,6 +82,10 @@ Tested only on my modified **Nolvus 6.0.21** setup (Skyrim SE 1.5.97) with Skyri
 
 Beast Aware is also bundled in the [Werewolf-Overhaul-Proof-of-Concept](https://github.com/Coronerra/Werewolf-Overhaul-Proof-of-Concept) repo. **It works fully standalone**, so you don't need anything from that repo.
 
+## 🔗 Related / recommended
+- 💦 [GT - Softbody](https://www.nexusmods.com/skyrimspecialedition/mods/152103): affects ABC's creature bodies and physics. Recommended with the werewolf setup.
+- 💦 [OCum-Tull-Liquid-Softbody-Patch](https://github.com/Coronerra/OCum-Tull-Liquid-Softbody-Patch): a merged OCum script for OCum Ascended 4.1.1, the Tull/Liquid Pack and GT Softbody.
+
 ## 🛠️ Source
 
 - `src/Scripts/`: Papyrus sources (`BA_Main`, `BA_MCM`, `BA_PlayerAlias`). Compile them with Caprica or the Creation Kit compiler against the vanilla, SKSE, SkyUI SDK and SkyrimNet API headers. The sources are also shipped in `Data/Scripts/Source`.
